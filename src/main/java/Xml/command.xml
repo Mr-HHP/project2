@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--申请获取温度和湿度数据-->
+<Message>
+    <SrcID>100</SrcID>
+    <DstID>101</DstID>
+    <DevID>2</DevID>
+    <SensorAddress>16</SensorAddress>
+    <Counter>1</Counter>
+    <Cmd>3</Cmd>
+    <Status>1</Status>
+</Message>

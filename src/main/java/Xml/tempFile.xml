@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--模拟树莓派发送的数据-->
+<!--临时存储文件-->
+<Message>
+    <SrcID>100</SrcID>
+    <DstID>101</DstID>
+    <DevID>2</DevID>
+    <SensorAddress>0</SensorAddress>
+    <Counter>0</Counter>
+    <Cmd>3</Cmd>
+    <Data>5d606f7802</Data>
+    <Status>1</Status>
+</Message>

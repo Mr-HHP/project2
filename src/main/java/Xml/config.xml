@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--配置文件维护类中的可变参数和类-->
+<environment>
+    <gather class="Client.GatherImpl">
+        <log>
+            src\main\java\LogFile\log.txt
+        </log>
+    </gather>
+    <client class="Client.ClientImpl">
+        <ip>
+            127.0.0.1
+        </ip>
+        <port>
+            12345
+        </port>
+    </client>
+    <jdbc class="Bean.JdbcPakge">
+        <driver>
+            com.mysql.jdbc.Driver
+        </driver>
+        <url>
+            jdbc:mysql://192.168.85.134:3306/MyProject
+        </url>
+        <user>
+            root
+        </user>
+        <password>
+            root
+        </password>
+    </jdbc>
+    <environment class="Bean.Environment"></environment>
+    <dataclient class="Data.DataClient">
+        <command>
+            src\main\java\Xml\command.xml
+        </command>
+        <tempfile>
+            src\main\java\Xml\tempFile.xml
+        </tempfile>
+        <log>
+            src\main\java\LogFile\log.txt
+        </log>
+    </dataclient>
+    <dbstore class="Server.DBStorelmpl"></dbstore>
+
+</environment>
